@@ -1,0 +1,9 @@
+<header class="header">
+  <h1>todos</h1>
+  <input class="new-todo"
+         placeholder="What u need to do?"
+         autofocus
+         (keyup.enter)="agregar()"
+         [formControl]="txtInput"
+         autofocus />
+</header>
